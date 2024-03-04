@@ -5,16 +5,16 @@ import OutlineBtn from '../common/OutlineBtn'
 const GetFundedProgram = () => {
     return (
         <div
-            className={`gap-4 flex flex-col lg:flex-row !container !mx-auto `}
+            className={`gap-10 flex flex-col lg:flex-row !container !mx-auto `}
         >
-            <div className="p-5">
+            <div>
                 <img
                     src={FundedProgramImg}
                     alt={"FundedProgramImg"}
                     className="object-contain"
                 />
             </div>
-            <div className="flex flex-col gap-y-4 justify-center md:max-w-xl lg:max-w-2xl p-4">
+            <div className="flex flex-col gap-y-4 justify-center md:max-w-xl lg:max-w-2xl">
                 <div className="gap-8 flex flex-col items-center md:items-start">
                     <p
                         className=" text-white font-[600]   leading-snug  !text-2xl lg:max-w-4xl md:!text-3xl lg:!text-4xl"

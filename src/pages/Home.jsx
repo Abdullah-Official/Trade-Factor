@@ -9,7 +9,7 @@ import CTA from '../components/common/CTA'
 
 const Home = () => {
     return (
-        <div className="space-y-16 my-20 container mx-auto">
+        <div className="space-y-16 my-20 container mx-auto px-5">
             <HeroSection />
             <div className=" my-20 space-y-10 flex flex-col w-full items-center">
                 <img src={HeroImg} alt="HeroImg" className="object-contain w-[90%] md:w-auto" />
@@ -26,7 +26,7 @@ const Home = () => {
             <div>
                 <GetFundedProgram />
             </div>
-            <div className='px-5'>
+            <div>
                 <CTA />
             </div>
         </div>

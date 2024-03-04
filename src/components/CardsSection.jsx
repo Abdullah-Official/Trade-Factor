@@ -37,7 +37,7 @@ const CardsSection = () => {
                     Lorem ipsum dolor sit amet consectetur adipiscing elit blandit id dolor venenatis auctor maecenas egestas arcu ut consectetur.
                 </p>
             </div>
-            <section className="py-8 px-8 flex justify-center "> {/* Added lg:justify-between */}
+            <section className="py-8  flex justify-center "> {/* Added lg:justify-between */}
                 <div className="flex items-center w-full ">
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 justify-center lg:justify-between lg:grid-cols-3 w-full">
                         {

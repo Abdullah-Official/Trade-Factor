@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <header className="">
             <div className="grid mt-10 md:mt-16  w-full ">
-                <div className="container mx-auto px-4 text-center space-y-6">
+                <div className="container mx-auto  text-center space-y-6">
                     <p
                         className="mx-auto text-white font-[600]  w-full leading-snug  !text-2xl lg:max-w-4xl md:!text-4xl lg:!text-6xl"
                     >
