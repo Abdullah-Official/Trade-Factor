@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background: linear-gradient(94.65deg, #45D1FD 1.57%, #010B24 103.27%); */
+  background-color: #010b24;
+  font-family: Poppins !important;
+}
+
+.get_started_btn {
+  border: none;
+  border-radius: 20px;
+  border-style: solid;
+  border-image: linear-gradient(94.65deg, #45d1fd 1.57%, #02539a 103.27%) 1;
+}
+.brand_img {
+  filter: grayscale(1) !important;
+  opacity: 0.5;
+  max-width: 150px;
+}
