@@ -4,6 +4,8 @@ import HeroImg from "../assets/images/hero-img.png"
 import BrandLogos from '../components/BrandLogos'
 import CardsSection from '../components/CardsSection'
 import BestPerformance from '../components/Home/BestPerformance'
+import GetFundedProgram from '../components/Home/GetFundedProgram'
+import CTA from '../components/common/CTA'
 
 const Home = () => {
     return (
@@ -20,6 +22,12 @@ const Home = () => {
             </div>
             <div>
                 <BestPerformance />
+            </div>
+            <div>
+                <GetFundedProgram />
+            </div>
+            <div className='px-5'>
+                <CTA />
             </div>
         </div>
     )
