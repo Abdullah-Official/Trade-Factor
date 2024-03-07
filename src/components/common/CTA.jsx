@@ -3,9 +3,9 @@ import BgCTA from "../../assets/images/bg_cta.png"
 const CTA = () => {
     return (
         <div
-            className={`flex justify-center py-3 lg:justify-end  container mx-auto object-contain w-full rounded-[40px]  md:h-[450px] bg-cover bg-no-repeat`}
+            className={`flex justify-center py-3 lg:justify-end  container mx-auto object-contain w-full rounded-[40px]  md:h-[450px]  bg-cover bg-no-repeat`}
             style={{
-                background: "linear-gradient(88.89deg, rgba(69, 209, 253, 0) 1.91%, #02539A 56.03%)"
+                background: `url(${BgCTA})`,
             }}
         >
             <div className="gap-8 flex flex-col lg:max-w-2xl w-full p-5 justify-center">

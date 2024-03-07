@@ -9,7 +9,7 @@ const WorkWithUs = () => {
         <div className="space-y-24 my-20 container mx-auto px-5">
             <HeadingSection hideBtn={true} title="Work With Us" />
             <div className='space-y-12 lg:space-y-20 w-full flex justify-center'>
-                <div className='max-w-5xl w-full bg-[#02539A40] p-12 rounded-3xl'>
+                <div className='max-w-5xl w-full bg-[#02539A40] px-5 py-10 md:p-12 rounded-3xl'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         <input type="text" name="firstName" placeholder='First Name' className={`${inputStyle}`} />
                         <input type="text" name="lastName" placeholder='Last Name' className={`${inputStyle}`} />
@@ -21,7 +21,7 @@ const WorkWithUs = () => {
 
                     </div>
                     <div className='mt-10'>
-                        <OutlineBtn title="Send Message" />
+                        <OutlineBtn title="Send Message" className={'w-full md:w-fit'} />
                     </div>
                 </div>
             </div>
