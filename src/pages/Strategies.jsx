@@ -11,8 +11,8 @@ const Strategies = () => {
         <div className="space-y-24 my-20 container mx-auto px-5">
             <HeadingSection title="Strategies" />
             <div className='space-y-12 lg:space-y-20 '>
-                <CommonGrid reverseRow={false} title="Nuova strategy" img={Strategy1} />
-                <CommonGrid reverseRow={true} title="Strategy title" img={Strategy2} />
+                <CommonGrid reverseRow={true} title="Nuova strategy" img={Strategy1} />
+                <CommonGrid reverseRow={false} title="Strategy title" img={Strategy2} />
             </div>
             <div>
                 <CTA />

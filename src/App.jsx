@@ -12,11 +12,15 @@ import About from "./pages/About";
 import WorkWithUs from "./pages/WorkWithUs";
 import GetStarted from "./pages/GetStarted";
 import Login from "./pages/Login";
+import HomeBG from "./assets/images/home_bg.png"
+
 function App() {
 
   return (
-    <div className="pt-4">
+    <div style={{background: `url(${HomeBG})`}}  className="h-fit relative !bg-cover bg-no-repeat">
+      <div className="pt-4">
       <NavHeader />
+      </div>
       <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
