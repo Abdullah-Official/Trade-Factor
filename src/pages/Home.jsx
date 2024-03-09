@@ -14,7 +14,7 @@ const Home = () => {
             <div className="space-y-16 container my-20 h-full mx-auto px-5">
                 <HeroSection />
                 <div className=" my-20 space-y-10 flex flex-col w-full items-center">
-                    <img src={HeroImg} alt="HeroImg" className="object-contain w-[90%] md:w-auto" />
+                    <img src={HeroImg} alt="HeroImg" className="object-contain w-[100%] md:w-[750px]" />
                 </div>
                 <div>
                     <BrandLogos />

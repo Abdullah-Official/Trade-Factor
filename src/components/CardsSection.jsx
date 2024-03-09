@@ -13,11 +13,11 @@ const cardsData = [
     },
     {
         title: "Connect Account",
-        img: HomeCardImg2,
+        img: HomeCardImg3,
     },
     {
         title: "Start Trading",
-        img: HomeCardImg3,
+        img: HomeCardImg2,
     },
 ]
 

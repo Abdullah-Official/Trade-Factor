@@ -7,7 +7,7 @@ import WorkWithUsImg from "../assets/images/work_with_us_img.png"
 const WorkWithUs = () => {
     const inputStyle = `bg-transparent rounded-lg py-2.5 px-4 pl-5 pt-3 text-[12px] outline-none text-white placeholder:text-white border border-[#02539A]`
     return (
-        <div className="space-y-24 my-20 container mx-auto px-5">
+        <div className="space-y-20 my-20 container mx-auto px-5">
             <HeadingSection hideBtn={true} title="Work With Us" />
             <div className='space-y-12 lg:space-y-20 w-full flex justify-center'>
                 <div className='max-w-5xl w-full bg-[#02539A40] px-5 py-10 md:p-12 rounded-3xl'>
@@ -27,7 +27,7 @@ const WorkWithUs = () => {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                <img src={WorkWithUsImg} alt="workwithus_img" className='object-contain ' />
+                <img src={WorkWithUsImg} alt="workwithus_img" className='object-contain w-[800px]' />
             </div>
             <div>
                 <CTA />

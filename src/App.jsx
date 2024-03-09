@@ -40,10 +40,10 @@ function App() {
 
   return (
     <div style={{ background: `url(${bg})` }} className="h-fit relative !bg-cover bg-no-repeat">
-      <div className="pt-4">
+      <div>
         <NavHeader />
       </div>
-      <div className="">
+      <div className="pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/strategies" element={<Strategies />} />

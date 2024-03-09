@@ -42,7 +42,7 @@ const NavHeader = () => {
         );
     }, []);
     return (
-        <Navbar shadow={false} fullWidth className="border-0 backdrop-filter-none bg-transparent">
+        <Navbar shadow={false} fullWidth className="border-0 backdrop-filter-none py-8 fixed z-50 bg-[rgba(1,11,36,0.9)] md:bg-[rgba(1,11,36,0.3)]">
             <div className="container mx-auto flex items-center justify-between">
                 <NavLink to={"/"}>
                 <div className="flex gap-4 items-center">
