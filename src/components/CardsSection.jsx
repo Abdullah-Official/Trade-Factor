@@ -28,7 +28,7 @@ const CardsSection = () => {
                 <p
                     className="text-center text-white font-[600]   leading-snug  !text-xl lg:max-w-4xl md:!text-2xl lg:!text-4xl"
                 >
-                    <span className='text-[#45D1FD]'>Get started</span>{" "}
+                    <span className='text_gradient'>Get started</span>{" "}
                     easy as 1-2-3
                 </p>
                 <p

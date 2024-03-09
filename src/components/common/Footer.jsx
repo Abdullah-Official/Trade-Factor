@@ -1,6 +1,12 @@
 import React from 'react'
 import Logo from "../../assets/images/logo.png"
-import SocialTemp from "../../assets/images/social_temp.png"
+import Facebook from "../../assets/images/facebook.png"
+import X from "../../assets/images/x.png"
+import WhatsApp from "../../assets/images/whatsapp.png"
+import Youtube from "../../assets/images/youtube.png"
+import LinkedIn from "../../assets/images/linkedin.png"
+
+
 
 const Footer = () => {
     return (
@@ -15,8 +21,12 @@ const Footer = () => {
                             </p>
                         </div>
                         <p className='text-white font-[500] text-[12px] max-w-lg'>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit id dolor venenatis auctor maecena.</p>
-                        <div>
-                            <img src={SocialTemp} alt="social" className='object-contain w-[180px]' />
+                        <div className='flex gap-4'>
+                            <img src={Facebook} alt="social" className='object-contain w-4 cursor-pointer' />
+                            <img src={X} alt="social" className='object-contain w-4 cursor-pointer' />
+                            <img src={WhatsApp} alt="social" className='object-contain w-4 cursor-pointer' />
+                            <img src={Youtube} alt="social" className='object-contain w-4 cursor-pointer' />
+                            <img src={LinkedIn} alt="social" className='object-contain w-4 cursor-pointer' />
                         </div>
                     </div>
                     <p className='text-white font-[400] text-[12px]'>©2024 Trade Factor. | All Rights reserved.</p>

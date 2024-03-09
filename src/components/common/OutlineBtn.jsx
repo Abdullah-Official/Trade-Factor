@@ -13,7 +13,7 @@ const OutlineBtn = ({ title, variant, className, color }) => {
             <div
                 style={{background: color ? color : "#02539A"}}
                 className={`flex text-white w-fit rounded-full  mx-auto p-[2.5px] shadow-lg ${className}`}>
-                <button className={`flex-1 text-[10px] md:text-[14px]  font-[600]  px-6 xl:px-8 py-3.5 rounded-full`}>
+                <button className={`flex-1 text-[10px] md:text-[14px]  font-[600]  px-6 xl:px-8 py-3 rounded-full`}>
                     {title}
                 </button>
             </div>

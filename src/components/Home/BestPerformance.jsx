@@ -8,7 +8,7 @@ const BestPerformance = () => {
         <p
           className="text-center text-white font-[600]   leading-snug  !text-xl lg:max-w-4xl md:!text-2xl lg:!text-4xl"
         >
-          <span className='text-[#45D1FD]'>Top 5</span>{" "}
+          <span className='text_gradient'>Top 5</span>{" "}
           Best-performing accounts
         </p>
       </div>

@@ -16,7 +16,7 @@ const CommonGrid = ({ reverseRow, title, img, hideBtn, text }) => {
             <div className="flex flex-col gap-y-4 justify-center md:max-w-xl lg:max-w-2xl">
                 <div className="gap-8 flex flex-col i">
                     <p
-                        className=" text-white font-[600]   leading-snug  !text-2xl lg:max-w-4xl md:!text-3xl lg:!text-5xl"
+                        className=" text_gradient font-[600]   leading-snug  !text-2xl lg:max-w-4xl md:!text-3xl lg:!text-5xl"
                     >
                         {title}
                     </p>

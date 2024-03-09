@@ -2,6 +2,7 @@ import React from 'react'
 import HeadingSection from '../components/common/HeadingSection'
 import CTA from '../components/common/CTA'
 import OutlineBtn from '../components/common/OutlineBtn'
+import WorkWithUsImg from "../assets/images/work_with_us_img.png"
 
 const WorkWithUs = () => {
     const inputStyle = `bg-transparent rounded-lg py-2.5 px-4 pl-5 pt-3 text-[12px] outline-none text-white placeholder:text-white border border-[#02539A]`
@@ -24,6 +25,9 @@ const WorkWithUs = () => {
                         <OutlineBtn title="Send Message" className={'w-full md:w-fit'} />
                     </div>
                 </div>
+            </div>
+            <div className='flex justify-center items-center'>
+                <img src={WorkWithUsImg} alt="workwithus_img" className='object-contain ' />
             </div>
             <div>
                 <CTA />

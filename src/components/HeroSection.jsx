@@ -1,4 +1,3 @@
-import { Button } from '@material-tailwind/react'
 import React from 'react'
 import OutlineBtn from './common/OutlineBtn'
 
@@ -10,9 +9,9 @@ const HeroSection = () => {
                     <p
                         className="mx-auto text-white font-[600]  w-full leading-snug  !text-2xl lg:max-w-4xl md:!text-4xl lg:!text-6xl"
                     >
-                        <span className='text-[#45D1FD]'>Next-gen</span>{" "}
+                        <span className='text_gradient'>Next-gen</span>{" "}
                         investing app for modern {" "}
-                        <span className="text-[#45D1FD] leading-snug ">
+                        <span className="text_gradient leading-snug ">
                             investors
                         </span>
                     </p>

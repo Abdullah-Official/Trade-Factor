@@ -6,7 +6,7 @@ const HeadingSection = ({ title, text, hideBtn, className }) => {
         <div className='flex items-center justify-center'>
             <div className={`flex flex-col items-center gap-7 text-center ${className}`}>
                 <p
-                    className={`mx-auto text-white font-[600]  w-full leading-snug  !text-3xl lg:max-w-4xl md:!text-4xl lg:!text-6xl`}
+                    className={`mx-auto text_gradient font-[600]  w-full leading-snug  !text-3xl lg:max-w-4xl md:!text-4xl lg:!text-6xl`}
                 >
                     {title}
                 </p>
