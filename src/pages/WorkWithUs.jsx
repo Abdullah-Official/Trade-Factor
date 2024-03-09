@@ -27,7 +27,7 @@ const WorkWithUs = () => {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                <img src={WorkWithUsImg} alt="workwithus_img" className='object-contain w-[800px]' />
+                <img src={WorkWithUsImg} alt="workwithus_img" className='object-contain w-[900px]' />
             </div>
             <div>
                 <CTA />

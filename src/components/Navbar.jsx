@@ -42,15 +42,15 @@ const NavHeader = () => {
         );
     }, []);
     return (
-        <Navbar shadow={false} fullWidth className="border-0 backdrop-filter-none py-8 fixed z-50 bg-[rgba(1,11,36,0.9)] md:bg-[rgba(1,11,36,0.3)]">
+        <Navbar shadow={false} fullWidth className="border-0 backdrop-filter-none py-8 fixed z-50  " style={{background: "linear-gradient(to right, rgba(2, 83, 154, 0.4) -100%, rgba(255, 0, 184, 0.1) 75%)"}}>
             <div className="container mx-auto flex items-center justify-between">
                 <NavLink to={"/"}>
-                <div className="flex gap-4 items-center">
-                    <img src={Logo} alt="logo" className='w-[40px] object-contain' />
-                    <p className="text-lg font-semibold text-white">
-                        Trade Factor
-                    </p>
-                </div>
+                    <div className="flex gap-4 items-center">
+                        <img src={Logo} alt="logo" className='w-[40px] object-contain' />
+                        <p className="text-lg font-semibold text-white">
+                            Trade Factor
+                        </p>
+                    </div>
                 </NavLink>
                 <ul className="ml-10 hidden items-center gap-6 xl:gap-10 lg:flex">
                     {navs.map((nav) => (
@@ -75,7 +75,7 @@ const NavHeader = () => {
                     onClick={handleOpen}
                     className="ml-auto inline-block lg:hidden"
                 >
-                    {!open ? <AlignJustify className="text-white" /> : <X className="text-white"/>}
+                    {!open ? <AlignJustify className="text-white" /> : <X className="text-white" />}
                 </IconButton>
             </div>
             <Collapse open={open}>

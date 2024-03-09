@@ -13,7 +13,7 @@ const About = () => {
             <div className='space-y-12 lg:space-y-20 w-full'>
                 <div className='flex flex-col gap-8 md:gap-16 w-full  items-center  justify-center'>
                     <div className='max-w-5xl'>
-                        <img src={AboutImg} alt="AboutImg" className='object-contain' />
+                        <img src={AboutImg} alt="AboutImg" className='object-contain w-auto md:w-[900px]' />
                     </div>
                     <div className='space-y-7'>
                         <p
