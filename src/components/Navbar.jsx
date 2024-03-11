@@ -17,7 +17,7 @@ function NavItem({ children }) {
         <li>
             <NavLink to={`/${children !== "Home" ? children.toLowerCase().replace(/ /g, "-") : ""}`}>
                 <p
-                    className="!font-[400] text-white text-[15px] hover:text-[#45D1FD]"
+                    className="!font-[400] text-white text-[17px] hover:text-[#45D1FD] "
                 >
                     {children}
                 </p>
@@ -61,10 +61,10 @@ const NavHeader = () => {
                 </ul>
                 <div className="hidden items-center  lg:flex">
                     <NavLink to={"/login"}>
-                        <Button variant="text" className='text-white !w-fit font-[500] hover:text-[#45D1FD] capitalize text-[14px]'>Sign In</Button>
+                        <Button variant="text" className='text-white !w-fit font-[7p0] hover:text-[#45D1FD]  capitalize text-[14px]'>Sign In</Button>
                     </NavLink>                    <NavLink to="/get-started"
                         className="flex rounded-full mx-auto bg-gradient-to-tr from-[#45D1FD] to-[#02539A] p-[2.5px] shadow-lg">
-                        <button className="flex-1 text-[14px]  text-white hover:text-[#45D1FD] font-[500] bg-[#010B24] px-6 xl:px-8 py-3 rounded-full">
+                        <button className="flex-1 text-[14px]  text-w7pte hover:text-[#45D1FD]  font-[500] bg-[#010B24] px-6 xl:px-8 py-3 rounded-full">
                             Get Started
                         </button>
                     </NavLink>
@@ -89,11 +89,11 @@ const NavHeader = () => {
                     </ul>
                     <div className="mt-6 mb-4 flex items-center gap-2">
                         <NavLink to={"/login"}>
-                            <Button variant="text" className='text-white !w-fit font-[500] hover:text-[#45D1FD] capitalize text-[14px]'>Sign In</Button>
+                            <Button variant="text" className='text-white !w-fit font-[7p0] hover:text-[#45D1FD]  capitalize text-[14px]'>Sign In</Button>
                         </NavLink>
                         <NavLink to="/get-started"
                             className="flex rounded-full bg-gradient-to-tr from-[#45D1FD] to-[#02539A] p-[2.5px] shadow-lg">
-                            <button className="flex-1 text-[14px]  text-white hover:text-[#45D1FD] font-[500] bg-[#010B24] px-5 xl:px-8 py-2 rounded-full">
+                            <button className="flex-1 text-[14px]  text-w7pte hover:text-[#45D1FD]  font-[500] bg-[#010B24] px-5 xl:px-8 py-2 rounded-full">
                                 Get Started
                             </button>
                         </NavLink>
